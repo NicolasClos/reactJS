@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.headerDiv{
+    display: none;
+}
+
+.header{
+    display: none
+}
+
+@media only screen and (min-width: 1024px){
+    .header{
+        display: flex;
+        background-color: #fff;
+        flex-direction: row;
+        width: 100%;
+        height: 80px;
+        border: none;
+        border-bottom: 2px solid #7c298b;
+        
+    }
+    
+    .headerDiv{
+        background-color: #111;
+        width: 100%;
+        height: 50px;
+        display: inline-block;
+    }
+    
+    .headerImgContainer{
+        flex-grow: 1;
+        overflow: hidden;
+        display: inline-block
+    }
+
+    .headerImgContainer2{
+        display: none;
+    }
+    
+    .headerImg{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        transform: scale(2)
+    }
+    
+    .nav{
+        flex-grow: 1;
+    }
+    
+    .navUl{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .navLi{
+        list-style: none;
+        flex-grow: 1;
+        height: 100%;
+        border: none;
+    }
+    
+    .navLink{
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .dropdown-toggle::after{
+        border: none
+    }
+
+    .categoriasLink{
+        color: black;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .categoriasLink:hover{
+        color: #7c298b;
+
+    }
+
+    .navLink:hover{
+        color: #7c298b;
+    }
+    
+    .headerIconsContainer{
+        color: inherit;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding-right: 50px;
+        font-size: 20px;
+        width: 0;
+        height: inherit;
+        margin: inherit;
+    }
+
+    .headerIconsContainer span{
+        margin-left: 10px;
+    }
+    
+    .headerIcon{
+        cursor: pointer;
+    }
+    
+    .headerIcon:hover{
+        transform: scale(1.2);
+        color: #7c298b
+    }
+}
+
+

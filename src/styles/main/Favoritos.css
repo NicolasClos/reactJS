@@ -1,0 +1,15 @@
+.outlineHeart, .fillHeart{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.outlineHeart:hover, .fillHeart:hover{
+    transform: scale(1.1);
+    background-color: #bbb
+}

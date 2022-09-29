@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.productoContainer{
+    width: 250px;
+    height: fit-content;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px;
+    box-shadow: 0 0 2px rgba(0,0,0,1);
+}
+
+
+.prooductoImagenContainer{
+    flex-grow: 1;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.productoImagen{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    object-fit: cover;
+}
+
+.productoNombre{
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.productoPrecio{
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.productoInfoContainer{
+    margin: 10px
+}
+
+.spanFavoritos{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+    z-index: 200;
+}
+
+.verMasContainer{
+    width: 100%;
+    height: 50px;
+}
+
+.verMas{
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #eee;
+    transition: all 0.2s;
+}
+
+.verMas:hover{
+    background-color: #333;
+    color: #fff
+}

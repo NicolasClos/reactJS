@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 20px
+}
+
+.btnResta{
+    flex-grow: 1;
+    height: 100%;
+    background-color: #fff;
+    color: rgb(188, 60, 141);
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 20px
+}
+
+.btnResta:hover{
+    background-color: #eee;
+}
+
+.numero{
+    flex-grow: 2;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnSuma{
+    flex-grow: 1;
+    height: 100%;
+    background-color: #fff;
+    color: rgb(188, 60, 141);
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 20px
+}
+
+.btnSuma:hover{
+    background-color: #eee;
+}
+
+.btnBuyNow{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(106, 19, 74);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px
+}
+
+.btnBuyNow:hover{
+    background-color: rgb(192, 84, 152)
+}
+
+
+.btnAddToCart{
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(188, 60, 141);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px
+}
+
+.btnAddToCart:hover{
+    background-color: rgb(211, 136, 184)
+}
+
