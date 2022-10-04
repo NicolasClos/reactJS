@@ -12,6 +12,20 @@ import '../../styles/header/NavbarDesktop.css'
 import logo from '../../assets/nclos.png'
 
 export default function Navbar(){
+/*
+    const getId = (<)=>{
+        return new Promise((resolve,reject)=>{
+            setTimeout(()=>{
+                let itemFind = Data.find(item => item.id === parseInt(idItem))
+                if(itemFind){
+                    resolve(itemFind)
+                } else{
+                    reject(new Error('Item no encontrado!'))
+                }
+            },2000)
+        });
+    }*/
+
     return(
         <>
             <div className="headerDiv"></div>
@@ -22,9 +36,9 @@ export default function Navbar(){
                 <nav className="nav">
                     <ul className='navUl'>
                         <li className='navLi'><Link className='navLink' to='/'>Inicio</Link></li>
-                        <div className="navLi dropdown">
+                        <div className="navLi dropdown show">
                             <li className="categoriasLink dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorías</li>
-                            <ul className="dropdown-menu">
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <li><Link className="dropdown-item" to="/categoria/:categoriaId">iPhone</Link></li>
                                 <li><Link className="dropdown-item" to="/categoria/:categoriaId">Macbook</Link></li>
                                 <li><Link className="dropdown-item" to="/categoria/:categoriaId">Apple Watch</Link></li>

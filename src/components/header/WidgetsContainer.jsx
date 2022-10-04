@@ -1,8 +1,6 @@
 // IMPORT COMPONENTS
 import React from 'react';
-import {AiFillHeart, AiOutlineClose, AiOutlineHeart, AiOutlineSearch, AiOutlineUser} from 'react-icons/ai'
-import {BsCart} from 'react-icons/bs'
-import {FaRegCommentAlt} from 'react-icons/fa'
+import {AiOutlineHeart, AiOutlineSearch, AiOutlineUser} from 'react-icons/ai'
 import CartWidget from './CartWidget.jsx'
 
 // IMPORT STYLES
