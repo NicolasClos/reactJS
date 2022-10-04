@@ -28,10 +28,6 @@ const ItemCount = (props)=>{
         }
     }
 
-    const onBuyNow = ()=>{
-        return(0)
-    }
-
     return(
         <>
             <div className='btnContainer'>
@@ -39,7 +35,7 @@ const ItemCount = (props)=>{
                 <span className="numero">{num}</span>
                 <button className="btnSuma" onClick={itemSum}>+</button>
             </div>
-            <button className="btnBuyNow" onClick={onBuyNow}>Comprar ahora</button>
+            <button className="btnBuyNow" onClick={props.onBuyNow}>Comprar ahora</button>
             <button className="btnAddToCart" onClick={onAddToCart}>Agregar al carrito</button>
         </>
     );
