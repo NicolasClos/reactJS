@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavbarMobile />
-        <NavbarDesktop />
+        <NavbarDesktop /> 
         <Routes>
           <Route path='/' element={<ItemListContainer />} />
           <Route path='/producto/:id' element={<ItemDetailContainer />} />
